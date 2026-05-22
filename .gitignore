@@ -1,0 +1,16 @@
+# --- Data and results are not tracked (large, not redistributable) ----------
+data/
+results/
+reference/
+tools/
+
+# --- Common large/intermediate genomics files --------------------------------
+*.sumstats.gz
+*.besd
+*.bed
+*.log
+
+# --- R session files ----------------------------------------------------------
+.Rhistory
+.RData
+.Rproj.user/
